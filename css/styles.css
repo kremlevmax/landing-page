@@ -12,7 +12,11 @@ body {
 }
 
 header {
- position: relative;
+  position: relative;
+}
+
+li {
+  list-style: none;
 }
 
 .container {
@@ -25,7 +29,6 @@ header {
   align-items: center;
   width: 100%;
   background-color: white;
-
 }
 
 .logo-img {
@@ -51,7 +54,7 @@ header {
 }
 
 #hero {
-  margin-top: 250px;
+  margin-top: 25vw;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -60,13 +63,21 @@ header {
 .form-heading {
   text-transform: uppercase;
 }
+
 .get-btn {
   border: 0;
   background-color: #f5c00d;
   padding: 0.75em 1.5em;
-  margin-top: 1em;
+  margin: 1em 0;
   border-radius: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+.get-btn:hover {
+  background-color: #f45b0e;
+  transition: background-color 1s;
+}
+
 #email {
   border: 0;
   background-color: #ffe9a3;
@@ -76,5 +87,72 @@ header {
   width: 30%;
 }
 
-.email-form {
+.email-form {}
+
+#features {
+  margin-top: 20vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+}
+
+#features .icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 20vw;
+  color: #f5c00d;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 65vw;
+  padding: 30px;
+}
+
+.prices {
+  display: flex;
+  margin-top: 20vw;
+  justify-content: center;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  width: calc(70% / 3);
+  border: 3px solid #f5c00d;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.cheese-name {
+  width: 100%;
+  background-color: #ffe07c;
+  padding: 10px 0;
+}
+
+.option>h2 {
+  margin-top: 15px;
+}
+
+.option>ol>li {
+  padding: 5px 0;
+}
+
+.option>ol {
+  margin: 15px 0;
+}
+
+.copyrights {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-top: 10vw;
 }
