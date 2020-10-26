@@ -1,37 +1,51 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <div id="page-wrapper">
-            <header>
-                <div id=logo>
-                    <img src="images/logo.png" class="logo-img"/>
-                </div>
-                <nav id="nav-bar">
-                    <ul class="menu">
-                        <li>
-                            <a href="" class="nav-link">History</a>
-                        </li>
-                        <li>
-                            <a href="" class="nav-link">Types</a>
-                        </li>
-                        <li>
-                            <a href="" class="nav-link">Plant</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            
-            <div id="get-cheese">
-                <form action="https://www.freecodecamp.com/email-submit">
-                    <div class="form-group">
-                        <h2>Enter e-mail and win 5 pounds of cheese:</h2>
-                        <input type="email" class="form-control" id="email" placeholder="Your e-mail here">
-                        <input id="submit" type="submit" value="Get Cheese!" class="btn" />
-                    </div>
-                </form>
-            </div>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+
+    <div class="container">
+      <div class="logo">
+        <img class="logo-img" src="images/logo.png">
+      </div>
+
+      <div class="navigation-menu">
+        <ul class="nav-bar">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Get Free Cheese</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#best-features">Our Cows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#examples">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2 class="form-heading">Leave e-mail and get free cheese!</h2>
+
+      <div class="hero">
+        <div class="email-form">
+          <input type="email" id="email" name="email">
         </div>
-    </body>
+        <div class="submit-btn">
+          <button type="submit" class="get-btn">Submit</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+</body>
+
 </html>
